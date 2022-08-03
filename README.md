@@ -8,11 +8,11 @@ Consultar todos http://localhost:3000/
 
 get('http://localhost:3000/busstops/',
 getAllStops); get('http://localhost:3000/busstops/:id',
-getStopById); post('http://localhost:3000/busstops/',newStop); 
+getStopById); 
 
 POST (Agregar datos)
 http://localhost:3000/
-
+post('http://localhost:3000/busstops/',newStop); 
 post('http://localhost:3000/busstops/:linea'
 
 
